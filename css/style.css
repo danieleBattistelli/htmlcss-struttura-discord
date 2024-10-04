@@ -40,8 +40,12 @@
 }
 
 .reverse {
-    display: flex;
     flex-direction: row-reverse;
+}
+
+.lateral {
+    padding-top: 10px;
+    justify-content: space-between;
 }
 
 .col-20 {
@@ -49,7 +53,13 @@
     padding: 10px;
     /*debug*/
     border: 1px solid #000000;
+}
 
+.col-10 {
+    width: 10%;
+    padding: 10px;
+    /*debug*/
+    border: 1px solid #000000;
 }
 
 .col-40 {
@@ -125,6 +135,22 @@
     min-height: 37vh;
     border: 1px solid #000000;
     background-color: #000000;
+}
+
+.footer-up {
+
+    padding-top: 20px;
+    /*debug*/
+    min-height: 80px;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+}
+
+.footer-down {
+    background-color: #7fffd4;
+    /*debug*/
+    min-height: 60px;
+
 }
 
 /*utilities */
