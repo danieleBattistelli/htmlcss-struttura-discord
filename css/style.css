@@ -39,7 +39,7 @@
     display: flex;
 }
 
-.reverse{
+.reverse {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -70,7 +70,7 @@
 }
 
 .first-section {
-    width: 100%;  
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     /*debug*/
@@ -88,7 +88,7 @@
     border: 1px solid #000000;
 }
 
-.third-section{
+.third-section {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -117,10 +117,16 @@
     background-color: rgb(179, 177, 177);
 }
 
-.box-green{
-    height: 50vh;
-    background-color: green;
+.sixth-section {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*debug*/
+    min-height: 37vh;
+    border: 1px solid #000000;
+    background-color: #000000;
 }
+
 /*utilities */
 .text-center {
     text-align: center;
@@ -144,4 +150,17 @@
 
 .pink {
     background-color: #ffc0cb;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.box-green {
+    height: 50vh;
+    background-color: green;
 }
