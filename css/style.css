@@ -97,6 +97,15 @@
     border: 1px solid #000000;
     background-color: rgb(179, 177, 177);
 }
+
+.fourth-section {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*debug*/
+    min-height: 37vh;
+    border: 1px solid #000000;
+}
 /*utilities */
 .text-center {
     text-align: center;
